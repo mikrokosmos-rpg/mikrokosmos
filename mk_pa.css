@@ -94,7 +94,7 @@
   padding: 8px;
   font-size: 12px;
   text-align: justify;
-  background: var(--noir);
+  background: var(--mid);
   height: 76px;
   overflow: auto;
 }
@@ -126,7 +126,7 @@ a.pa_contexte_lien:hover{
 }
 
 .pa_slider{
-  background-color: var(--noir);
+  background-color: var(--mid);
   border-radius: 20px 0px 20px 0px;
 }
 
@@ -255,7 +255,7 @@ a.pa_contexte_lien:hover{
 }
 .pa_row2 .mdm a{
   display: block;
-  background: var(--noir);
+  background: var(--mid);
   color: var(--blanc);
   text-decoration: none!important;
   text-align: center;
@@ -327,7 +327,7 @@ a.pa_contexte_lien:hover{
   height: 16px;
 }
 .staff .staff_content{
-  background-color: var(--noir);
+  background-color: var(--mid);
   padding: 4px 8px;
   font-size: 7px;
   line-height: 10px;
@@ -402,7 +402,7 @@ a.pa_contexte_lien:hover{
   column-gap: 12px;
   padding: 16px;
   border-radius: 25px;
-  background: var(--noir);
+  background: var(--mid);
 }
 .pa_gdm span.maison{
   font-family: var(--special-font);
@@ -520,7 +520,7 @@ a.pa_contexte_lien:hover{
   border-radius: 20px 20px 0px 0px;
 }
 .pa_compet .contenu{
-  background: var(--noir);
+  background: var(--mid);
   padding: 12px;
   display: grid;
   grid-template-columns: 1fr 1px 1fr;
@@ -704,7 +704,7 @@ a.pa_contexte_lien:hover{
   line-height: 22px;
 }
 .pa_partenaires select{
-  border: 1px solid var(--noir);
+  border: 1px solid var(--mid);
   padding: 4px 6px;
   height: 24px;
   font-size: 10px;
@@ -712,7 +712,7 @@ a.pa_contexte_lien:hover{
   color: var(--tx);
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-color: var(--noir);
+  background-color: var(--mid);
   background-image: url("https://images2.imgbox.com/d5/1c/1MIGIEDI_o.png");
   background-size: 12px;
   background-repeat: no-repeat;
