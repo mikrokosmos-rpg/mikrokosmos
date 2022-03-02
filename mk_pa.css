@@ -162,6 +162,9 @@ a.pa_contexte_lien:hover{
 .scenar_icons a:nth-child(even):hover{
   background-color: var(--co2);
 }
+.scenar_icons a .far{
+  line-height: 24px;
+}
 .scenar_icons .space{
   justify-self: center;
   width: 1px;
@@ -214,6 +217,7 @@ a.pa_contexte_lien:hover{
   padding: 2px 4px;
   font-size: 10px;
   line-height: 15px;
+  text-align: justify;
   color: var(--blanc);
   opacity: 1;
   transition: all 0.3s ease;
@@ -339,6 +343,7 @@ a.pa_contexte_lien:hover{
   grid-template-columns: 24px auto;
   column-gap: 8px;
   align-content: center;
+  text-align: left;
 }
 .staff .staff_content .staff_item.titre span.far{
   font-size: 10px;
@@ -694,6 +699,9 @@ a.pa_contexte_lien:hover{
 .pa_partenaires a.lien:hover{
   color: var(--blanc);
   background: var(--co2);
+}
+.pa_partenaires a.lien .far{
+  line-height: 24px;
 }
 .pa_partenaires select{
   border: 1px solid var(--noir);
