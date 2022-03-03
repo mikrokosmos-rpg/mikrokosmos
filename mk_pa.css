@@ -157,6 +157,9 @@ a.pa_contexte_lien:hover{
     transition: all 0.3s ease;
     background-color: var(--mid);
 }
+.scenar_icons a:hover{
+  color: white;
+}
 .scenar_icons a:nth-child(odd):hover{
   background-color: var(--co1);
 }
