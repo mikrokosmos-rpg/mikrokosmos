@@ -244,13 +244,14 @@ a.volet_lien {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: black;
+    color: white;
     text-transform: uppercase;
-    font-size: .55rem;
-    letter-spacing: 1px;
+    font-size: 10px;
+    letter-spacing: 0.5px;
     height: 18px;
     line-height: 120%;
     padding: 0 5px;
+    font-family: var(--special-font);
     background: linear-gradient(to right, var(--co1), var(--co2))
 }
 
