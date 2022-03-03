@@ -58,8 +58,7 @@
 .swiper-image-inner.swiper-image-left {
   padding: 16px;
   text-align: left;
-  background-image: linear-gradient(to right, var(--co_rgb), var(--co_rgb2));
-  /* background-color: var(--co_rgb); */
+  background-color: var(--co_rgb);
   background-blend-mode: multiply;
 }
 .swiper-image-left {
