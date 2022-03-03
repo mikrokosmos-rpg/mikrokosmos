@@ -1,0 +1,73 @@
+.ask_reboot:before, .ask_reboot st3 {
+    background-color: #3CB371;
+}
+.ask_partial:before, .ask_partial st3 {
+    background-color: #9966CC;
+}
+.ask_newname:before, .ask_newname st3 {
+    background-color: #BA55D3;
+}
+.ask_account:before, .ask_account st3 {
+    background-color: #1E90FF;
+}
+.ask_transfert:before, .ask_transfert st3 {
+    background-color: #5AAE56;
+}
+.ask_hrpbuy:before, .ask_hrpbuy st3 {
+    background-color: #56C8D4;
+}
+.ask_irpbuy:before, .ask_irpbuy st3 {
+    background-color: #6670DB;
+}
+.ask_parti_listing:before, .ask_parti_listing st3 {
+    background-color: #F4A460;
+}
+.ask_parti_hensoku:before, .ask_parti_hensoku st3 {
+    background-color: #F08080;
+}
+.ask_parti_more:before, .ask_parti_more st3 {
+    background-color: #C1BA5B;
+}
+.ask_parti_buy:before, .ask_parti_buy st3 {
+    background-color: #5BB4C1;
+}
+
+.listing_ask {
+    border-radius: 20px 0px 20px 0px;
+    background-color: var(--fonce);
+    padding: 16px 16px 16px 24px;
+    border-left: 1px solid var(--clair);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.listing_ask:before {
+    content: " ";
+    display: block;
+    width: 8px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: red;
+    left: -1px;
+}
+
+.listing_ask st3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 09px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+}
+
+.listing_ask bb3 {
+    color: var(--blanc);
+}
