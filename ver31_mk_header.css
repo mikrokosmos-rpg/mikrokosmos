@@ -241,7 +241,7 @@
   height: 490px;
   width: 490px;
   border: 0px solid;
-  border-right: 1px solid var(--co1);
+  border-top: 1px solid var(--co1);
   border-radius: 50%;
   transition: all 0.2s;
   transform-origin: 245px 245px;
