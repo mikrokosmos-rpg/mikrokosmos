@@ -894,7 +894,6 @@ a.sceditor-button sceditor-button-mention {
 #fa_search #fa_textarea {
     position: fixed!important;
     left: 250px;
-    top: 0px;
     width: 20vw;
     min-width: 50px;
     transform: translateY(-5px);
