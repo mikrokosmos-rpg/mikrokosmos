@@ -897,6 +897,7 @@ a.sceditor-button sceditor-button-mention {
     top: 0px;
     width: 20vw;
     min-width: 50px;
+    transform: translateY(-5px);
 }
 
 #fa_left{
@@ -1051,7 +1052,6 @@ html #fa_ticker {
 }
 
 #fa_ticker_block {
-    background-color: var(--fonce);
     font-size: 12px;
 }
 
