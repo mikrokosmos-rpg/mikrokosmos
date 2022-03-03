@@ -837,7 +837,7 @@ a.sceditor-button sceditor-button-mention {
  * TOOLBAR
  */
 #fa_toolbar {
-    height: 60px;
+    height: 50px;
     z-index: 999 !important;
     margin: 0 20px 0 103px;
     background-color: transparent;
@@ -895,7 +895,6 @@ a.sceditor-button sceditor-button-mention {
     left: 250px;
     width: 20vw;
     min-width: 50px;
-    transform: translateY(-5px);
 }
 
 #fa_left{
@@ -924,7 +923,7 @@ a#fa_service::before {
 #fa_right{
     position: fixed;
     left: 83px;
-    top: 26px;
+    top: 22px;
     width: 150px;
     text-align: right;
 }
