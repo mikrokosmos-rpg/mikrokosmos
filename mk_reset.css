@@ -812,7 +812,7 @@ a.sceditor-button sceditor-button-mention {
 ::-webkit-scrollbar-thumb:vertical {
     height: 30px;
     border-radius: 0;
-    background: linear-gradient(to bottom, var(--co1), var(--co2))
+    background: linear-gradient(to bottom, var(--co1), var(--co2));
 }
 
 ::-webkit-scrollbar-thumb:horizontal {
@@ -822,13 +822,13 @@ a.sceditor-button sceditor-button-mention {
 }
 
 ::-moz-selection {
-    background: var(--tx) !important;
+    background: var(--co_rgb) !important;
     color: var(--blanc) !important;
     text-shadow: none !important
 }
 
 ::selection {
-    background: var(--tx) !important;
+    background: var(--co_rgb) !important;
     color: var(--blanc) !important;
     text-shadow: none !important
 }
