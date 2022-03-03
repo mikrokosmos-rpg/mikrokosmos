@@ -664,15 +664,14 @@ a.pa_contexte_lien:hover{
   line-height: 24px;
   padding: 24px 0px;
   font-family: var(--special-font);
-  text-shadow: 1px 1px 0 var(--noir);
   text-transform: uppercase;
   font-size: 16px;
   opacity: 1;
 }
 .pa_saison span.desc{
   width: calc(100% - 16px);
-  padding: 8px;
-  height: 66px;
+  padding: 12px 8px;
+  height: 48px;
   overflow: auto;
   text-align: justify;
   font-size: 9px;
