@@ -700,7 +700,7 @@ a.pa_contexte_lien:hover{
   background: transparent;
 }
 .pa_partenaires a.lien:hover{
-  color: var(--blanc);
+  color: white;
   background: var(--co2);
 }
 .pa_partenaires a.lien .far{
@@ -720,5 +720,5 @@ a.pa_contexte_lien:hover{
   background-size: 12px;
   background-repeat: no-repeat;
   background-position-x: calc(100% - 6px);
-  background-position-y: 6px;
+  background-position-y: 4px;
 }
