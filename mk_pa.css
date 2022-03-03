@@ -390,6 +390,7 @@ a.pa_contexte_lien:hover{
   font-style: italic;
   text-transform: lowercase;
   opacity: 0.8;
+  font-size: 8px;
 }
 
 .pa_row2 > .col2{
