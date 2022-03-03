@@ -252,11 +252,13 @@ a.volet_lien {
     line-height: 120%;
     padding: 0 5px;
     font-family: var(--special-font);
-    background: linear-gradient(to right, var(--co1), var(--co2))
+    background: linear-gradient(to right, var(--co1), var(--co2));
+    transition: all 0.3s ease;
+    opacity: 1;
 }
 
 a.volet_lien:hover {
-    background-color: var(--fonce)
+    opacity: 0.7;
 }
 
 /*---------- SWITCHEROO barre et position ----------*/
