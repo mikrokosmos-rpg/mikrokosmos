@@ -74,6 +74,9 @@
 body.light .header_mk a >span:nth-of-type(2){
   text-shadow: 1px 1px 0px var(--clair);
 }
+body.dark .header_mk a >span:nth-of-type(2){
+  text-shadow: 1px 1px 0px var(--co_rgb2);
+}
 
 .header_mk a:hover >span:nth-of-type(2) {
   color:var(--co1);
