@@ -34,9 +34,8 @@
 
 .listing_ask {
     border-radius: 20px 0px 20px 0px;
-    background-color: var(--fonce);
+    background-color: var(--clair);
     padding: 16px 16px 16px 24px;
-    border-left: 1px solid var(--clair);
     margin: 0 auto;
     position: relative;
     overflow: hidden;
