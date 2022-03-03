@@ -40,7 +40,7 @@
   text-align: center;
   background-image: linear-gradient(to right, var(--co1), var(--co2));
   background-size: cover;
-  color: var(--blanc);
+  color: white;
   font-family: var(--special-font);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -113,7 +113,7 @@ a.pa_contexte_lien{
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 0.5px;
-  color: var(--blanc);
+  color: white;
   text-align: right;
   transition: all 0.3s ease;
   opacity: 1;
@@ -314,7 +314,7 @@ a.pa_contexte_lien:hover{
   background-image: linear-gradient(to right, var(--co_rgb), var(--co_rgb2));
   transform: rotate(-90deg);
   text-align: center;
-  color: var(--blanc);
+  color: white;
   font-size: 8px;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -509,7 +509,7 @@ a.pa_contexte_lien:hover{
 .pa_compet .titre{
   width: 100%;
   text-align: center;
-  color: var(--blanc);
+  color: white;
   font-size: 8px;
   line-height: 16px;
   height: 16px;
@@ -572,6 +572,7 @@ a.pa_contexte_lien:hover{
   content: '';
   position: absolute;
   background-color: var(--gris);
+  opacity: 0.2;
 }
 .pa_compet .maison .pourc{
   display: block;
@@ -625,7 +626,7 @@ a.pa_contexte_lien:hover{
   line-height: 16px;
   border-radius: 20px;
   font-size: 8px;
-  color: var(--blanc);
+  color: white;
   background-image: linear-gradient(to right, var(--co_rgb), var(--co_rgb2));
 }
 .pa_meteo > .col3.text{
