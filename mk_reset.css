@@ -854,7 +854,7 @@ a.sceditor-button sceditor-button-mention {
 }
 
 #fa_search {
-    height: 59px;
+    height: 49px;
     margin-left: 0!important;
     background-color: var(--fonce);
     border-bottom: 1px solid var(--co1);
@@ -863,7 +863,7 @@ a.sceditor-button sceditor-button-mention {
 #fa_toolbar #fa_search form {
     display: flex!important;
     align-items: center;
-    height: 59px;
+    height: 49px;
 }
 
 #fa_search #fa_magnifier {
@@ -894,6 +894,7 @@ a.sceditor-button sceditor-button-mention {
 #fa_search #fa_textarea {
     position: fixed!important;
     left: 250px;
+    top: 0px;
     width: 20vw;
     min-width: 50px;
 }
