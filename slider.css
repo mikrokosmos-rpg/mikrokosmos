@@ -54,12 +54,15 @@
           justify-content: center;
   width: 100%;
   height: 100%;
-  background-color: var(--rgb);
   background-blend-mode: overlay;
+}
+.swiper-image-inner.swiper-image-right{
+  background-color: rgba(0,0,0,0.2);
 }
 .swiper-image-inner.swiper-image-left {
   padding: 16px;
   text-align: left;
+  background-image: linear-gradient(to right, var(--co_rgb), var(--co_rgb2));
 }
 .swiper-image-left {
   -webkit-filter: grayscale(100%);
