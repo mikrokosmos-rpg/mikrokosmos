@@ -6,11 +6,13 @@
   height: 132px;
   position: relative;
   border-radius: 20px 0px 20px 0px;
+  overflow: hidden;
 }
 .swiper-container {
   height: 100%;
   width: 100%;
   border-radius: 20px 0px 20px 0px;
+  overflow: hidden;
 }
 
 .swiper-image-one-left, .swiper-image-two-left, .swiper-image-three-left {
@@ -32,7 +34,6 @@
 }
 .swiper-image.right{ 
   width: 60%; 
-  border-radius: 0px 0px 20px 0px; 
 }
   
 .swiper-image-inner {
