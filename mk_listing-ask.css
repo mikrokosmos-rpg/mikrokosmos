@@ -57,16 +57,21 @@
     align-items: center;
     justify-content: center;
     width: fit-content;
+    column-gap: 4px;
     padding: 2px 8px;
     text-transform: uppercase;
     color: white;
-    font-size: 09px;
+    font-size: 9px;
     font-weight: 600;
     letter-spacing: 0.4px;
     margin-bottom: 16px;
     border-radius: 3px;
 }
-
+.listing_ask ion-icon {
+    font-size: 14px;
+    line-height: 12px;
+    --ionicon-stroke-width: 40px;
+}
 .listing_ask bb3 {
     color: var(--blanc);
 }
