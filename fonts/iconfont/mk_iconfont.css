@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'mk_icons';
+  src:  url('mk_iconfont.eot?oj4kfc');
+  src:  url('mk_iconfont.eot?oj4kfc#iefix') format('embedded-opentype'),
+    url('mk_iconfont.ttf?oj4kfc') format('truetype'),
+    url('mk_iconfont.woff?oj4kfc') format('woff'),
+    url('mk_iconfont.svg?oj4kfc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
