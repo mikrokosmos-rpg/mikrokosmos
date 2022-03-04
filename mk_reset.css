@@ -229,7 +229,13 @@ tr.haut_sujet{border:none}
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid var(--mid);
-    background-color: var(--mid)
+    background-image: linear-gradient(to right, var(--co), var(--co2));
+    transition: all 0.3s ease;
+    filter: grayscale(100%);
+    background-size: 400% 400%;
+    -webkit-animation: header_gradient 3s ease infinite;
+    -moz-animation: header_gradient 3s ease infinite;
+    animation: header_gradient 3s ease infinite;
 }
 
 .volet_liens {
