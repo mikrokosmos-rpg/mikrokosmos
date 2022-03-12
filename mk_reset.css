@@ -270,12 +270,12 @@ a.volet_lien:hover {
 /*---------- SWITCHEROO barre et position ----------*/
 .switcheroo {
     position: fixed;
-    z-index: 999;
+    z-index: 5;
     margin-left: -6px;
     top: 58px;
     color: var(--tx);
     font-size: 16px;
-    height: 175px;
+    height: 475px;
     overflow-y: auto;
     width: 256px
 }
