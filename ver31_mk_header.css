@@ -156,7 +156,7 @@ body.dark .header_mk a >span:nth-of-type(2){
   justify-content: space-evenly;
   flex-direction: column;
   position: absolute;
-  z-index: 0;
+  z-index: 2;
   content: '';
   height: 490px;
   margin-right: 490px;
